@@ -1,0 +1,33 @@
+.error-con {
+  justify-content: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.error-con img {
+  width: 100%;
+}
+
+.error-con a {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+
+  text-decoration: none;
+  margin-top: 30px;
+}
+.error-con button {
+  background-color: #0066ff;
+  color: #fff;
+  border: 1px solid #0066ff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+.error-con button:hover {
+  background-color: #fff;
+  border: 1px solid #0066ff;
+  color: #0066ff;
+}

@@ -1,0 +1,76 @@
+.Connect img {
+  width: 80vw;
+  height: 110vh;
+  border-radius: 4rem;
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #313141;
+  backdrop-filter: #313141; */
+  /* filter: grayscale(30%); */
+  filter: brightness(60%);
+}
+
+.Connect img:hover {
+  transform: scale(1.1);
+}
+
+.Connect h1 {
+  position: absolute;
+  /* padding-bottom: 50px; */
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+}
+.Connect a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Connect {
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.ConnectList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 900px;
+  margin: auto;
+  justify-content: center;
+}
+
+.Connect img {
+  width: 270px;
+  height: 350px;
+  border-radius: 3.5rem;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.Connect img:hover {
+  box-shadow: 0px 6px 50px 0 rgba(56, 125, 255, 2);
+  opacity: 0.8;
+  /* width: 300px;
+    height: 400px; */
+}
+
+@media (max-width: 850px) {
+  .ConnectList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 586px) {
+  .ConnectList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

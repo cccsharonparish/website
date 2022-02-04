@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap");
+
+.card {
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+  /* display: none; */
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./card.jpg);
+}
+
+.card-wrapper h2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 1px 1px 5px #6092ff;
+  box-shadow: 1px #6092ff;
+}
+
+.card-wrapper {
+  position: relative;
+  top: 40%;
+  z-index: 9;
+  margin-left: 50px;
+}
+
+.probtn {
+  color: #6092ff;
+  text-decoration: none;
+  right: 70px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #fff;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+  border-radius: 5px;
+  border-width: none;
+  z-index: 99;
+  cursor: pointer;
+  border-style: none;
+}
+
+.probtn:hover {
+  background-color: #6092ff;
+  color: #fff;
+  border-color: #fff;
+  border-style: solid;
+}
+
+@media (max-width: 569px) {
+  .card-wrapper {
+    margin-left: 5px;
+    top: 35%;
+  }
+}
+@media (max-width: 420px) {
+  .card-wrapper {
+    top: 30%;
+  }
+}

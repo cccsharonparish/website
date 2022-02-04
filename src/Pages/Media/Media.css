@@ -1,0 +1,30 @@
+.media-img {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.media-img:hover {
+  transform: scale(1.01);
+}
+
+.media-article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+}
+
+.media-section h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
