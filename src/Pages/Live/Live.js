@@ -37,9 +37,10 @@ const Live = () => {
   };
 
   useEffect(() => {
+    const interCurrent = interval.current;
     startTimer();
     return () => {
-      clearInterval(interval.current);
+      clearInterval(interCurrent);
     };
   });
 

@@ -10,8 +10,8 @@ const Radio = () => {
   return (
     <RadioCon>
       <div className="firstlink-con">
-        {" "}
         <iframe
+          title="First-link"
           src={Link}
           className="firstLink"
           style={{ frameborder: "0" }}
@@ -19,7 +19,12 @@ const Radio = () => {
       </div>
 
       <div className="secondlink-con">
-        <iframe src={Link2} scrolling="no" className="secondlink"></iframe>
+        <iframe
+          title="SecondLink"
+          src={Link2}
+          scrolling="no"
+          className="secondlink"
+        ></iframe>
       </div>
     </RadioCon>
   );

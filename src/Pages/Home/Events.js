@@ -2,24 +2,21 @@ import React from "react";
 import styled from "styled-components";
 import Val from "../../assets/vall.png";
 import Val2 from "../../assets/val2.webp";
-import Val3 from "../../assets/val3.png";
-import Val4 from "../../assets/val4.jpg";
+
 import { Link } from "react-router-dom";
 
 const Data = [
   {
     id: 1,
     image: Val,
-    month: "Jan",
-    day: "30",
+
     title: "A look at Love: Valentine",
     date: "Feb 13, 2022",
   },
   {
     id: 2,
     image: Val2,
-    month: "Jan",
-    day: "30",
+
     title: "New Moon Service",
     date: "Every First Thursday",
   },
@@ -96,7 +93,7 @@ const Event = () => {
         <h1 className="head">UPCOMING EVENTS</h1>
         <GridList>
           {Data.map((data) => {
-            const { image, month, day, title, date } = data;
+            const { image, title, date } = data;
             return (
               <Grids key={data.id} {...data}>
                 <div>

@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import styled from "styled-components";
 import Sliderdata from "./Slider-data";
-import Img1 from "../../assets/Slider1.jpg";
+
 import "./Slider.css";
-import { Link } from "react-router-dom";
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -93,5 +92,3 @@ const Slider = () => {
 export default Slider;
 
 const Hero = styled.div``;
-
-const Butt = styled.div``;

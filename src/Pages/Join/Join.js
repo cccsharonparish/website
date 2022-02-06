@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Join.css";
 
@@ -113,11 +113,7 @@ const Join = () => {
                 <option value="Evangelism Group">Evangelism Group</option>
               </select>
             </div>
-            {/* <div className="ins texts">
-              {" "}
-              <span>A Picture of You</span>
-              <input type="file" className="input-img" name="image" required />
-            </div> */}
+
             <div className="ins texts">
               <span>Your Skill: </span>
               <input

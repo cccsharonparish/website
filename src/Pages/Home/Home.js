@@ -1,22 +1,16 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React from "react";
 
 import Slider from "./Slider";
 import MenuList from "./Menu";
-import styled from "styled-components";
-import Hamburger from "./Hamburger";
+
 import Card from "./Card";
 import Radio from "./Radio";
 import Event from "./Events";
 import Links from "./Links";
-// import MenuList from "./MenuData";
-import Navbar from "./Navbar";
 
 const App = () => {
   return (
     <>
-      {/* <Navbar /> */}
-
       <section>
         <Slider />
         <Links />

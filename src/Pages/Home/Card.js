@@ -1,6 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-import This from "./card.jpg";
+
 import "./card.css";
 import { Link } from "react-router-dom";
 
@@ -25,5 +24,3 @@ const Card = () => {
 };
 
 export default Card;
-
-const Section = styled.div``;

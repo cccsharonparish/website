@@ -1,6 +1,3 @@
-import react from "react";
-import { useState } from "react";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
 // import menuData from "./MenuData";
 import Slider1 from "../../assets/new.JPG";
@@ -73,7 +70,3 @@ const Menu = ({ image, text, link }) => {
 };
 
 export default MenuList;
-
-// const Show = styled.div`
-//   background-image: url(${{ wave }} = wave);
-// `;
