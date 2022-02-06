@@ -17,7 +17,6 @@ const footer = () => {
               </h4>
 
               <ul>
-                <li>Call: +234 802-307-2375</li>
                 <li>Call: +234 802-382-0861</li>
 
                 <div className="fa-fa-foot">
