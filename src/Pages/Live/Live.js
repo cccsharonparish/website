@@ -49,7 +49,7 @@ const Live = () => {
       <div className="all-live">
         <div className="live-container">
           <section className="live-con">
-            <h1>Watch Our Live</h1>
+            <h1>Watch Our Lives</h1>
             <h3>We Would be Live in</h3>
 
             <div className="live-count">

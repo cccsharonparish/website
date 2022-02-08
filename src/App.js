@@ -28,6 +28,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route path="/new" element={<New />} />
 
           <Route path="/connect" element={<ConnectList />} />
           <Route path="/happening" element={<Happen />} />
@@ -39,8 +40,6 @@ const App = () => {
           <Route path="/live" element={<Live />} />
 
           <Route path="/media" element={<Media />} />
-
-          <Route path="/new" element={<New />} />
 
           <Route path="/resources" element={<Resources />} />
 

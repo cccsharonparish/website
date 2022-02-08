@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Val from "../../assets/vall.png";
-import Val2 from "../../assets/val2.webp";
+import Val2 from "../../assets/val2.jpg";
 
 import { Link } from "react-router-dom";
 
